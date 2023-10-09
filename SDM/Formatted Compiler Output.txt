@@ -1,0 +1,6 @@
+C:\Users\dac\Desktop\SP\SDM\Product.o	Product.cpp:(.text+0x82): multiple definition of `Product::Product(int, std::string, std::string, double)'
+C:\Users\dac\Desktop\SP\SDM\main.o	main.cpp:(.text$_ZN7ProductC1EiSsSsd[_ZN7ProductC1EiSsSsd]+0x0): first defined here
+C:\Users\dac\Desktop\SP\SDM\Product.o	Product.cpp:(.text+0x13e): multiple definition of `Product::displaydetails(int, std::string, std::string, double)'
+C:\Users\dac\Desktop\SP\SDM\main.o	main.cpp:(.text$_ZN7Product14displaydetailsEiSsSsd[_ZN7Product14displaydetailsEiSsSsd]+0x0): first defined here
+C:\Users\dac\Desktop\SP\SDM\collect2.exe	[Error] ld returned 1 exit status
+25		C:\Users\dac\Desktop\SP\SDM\Makefile.win	recipe for target 'ProductStoreApplication.exe' failed
